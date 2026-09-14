@@ -15,24 +15,29 @@ class FizzBuzz {
             boolean divisibleBy5 = i % 5 == 0;
 
             // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
-
-                System.out.println("Fizz Buzz");
-
-            } else if (divisibleBy3) {
-
-                System.out.println("Fizz");
-
-            } else if (divisibleBy5) {
-
-                System.out.println("Buzz");
-
-            } else {
-
-                System.out.println(i);
-
-            }
-            i += 1;
+            i = getI(divisibleBy3, divisibleBy5, i);
         }
+    }
+
+    private static int getI(boolean divisibleBy3, boolean divisibleBy5, int i) {
+        if (divisibleBy3 && divisibleBy5) {
+
+            System.out.println("Fizz Buzz");
+
+        } else if (divisibleBy3) {
+
+            System.out.println("Fizz");
+
+        } else if (divisibleBy5) {
+
+            System.out.println("Buzz");
+
+        } else {
+
+            System.out.println(i);
+
+        }
+        i += 1;
+        return i;
     }
 }

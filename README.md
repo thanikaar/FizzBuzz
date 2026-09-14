@@ -4,12 +4,11 @@ Let's start off our exploration of Java with a classic programming challenge, Fi
 But first, let's get you your own copy of this codebase to work with.
 
 ## Task 0 Forking a public repository on GitHub
-
 You should currently be reading this README on GitHub in the code repository:
 https://github.com/CSC207-2026F-UofT/FizzBuzz/
 
 1. Make sure you are logged into GitHub. You should see a button that says `Fork` in the top-right corner of the page.
-Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
+Click this button to create a fork of this repository, which will be your own copy oLook at the top-right corner of the editor for two small icon buttons — these toggle between Editor only, Editor + Preview, and Preview only.`f the codebase to edit as you please.
 In the new page that comes up, confirm that you want to create the fork and your own FizzBuzz repository will be created
 on GitHub!
 
